@@ -23,9 +23,18 @@
 * Deleting databases: `DROP DATABASE [database];`
 * Custom column output names: `SELECT [column] AS [custom-column] FROM [table];`
 *  Logout: `exit;`
-*  GRANT AL: `GRANT ALL ON 'dbName`.* to `dbuser`@`%.%.%.%`;` 
-*  CREATE USER: `CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';`
-*  CREATE USER: `CREATE USER 'newuser'@'%.%.%.%' IDENTIFIED BY 'password';`
+*  GRANT ALl: 
+```
+GRANT ALL ON 'dbName'.* to 'dbuser'@'%.%.%.%';
+```
+*  CREATE USER: 
+```
+CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
+```
+*  CREATE USER: 
+```
+CREATE USER 'newuser'@'%.%.%.%' IDENTIFIED BY 'password';
+```
 
 **To export**
 
