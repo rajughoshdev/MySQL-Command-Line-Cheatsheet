@@ -1,6 +1,6 @@
 # MySQL Command Line Cheatsheet
 
-* Access Mysql:` mysql -u [username] -p;`
+* Access monitor:` mysql -u [username] -p;`
 * Show all databases: `show databases;`
 * Access database: `mysql -u [username] -p [database];` 
 * Create new database: `create database [database];`
