@@ -23,18 +23,20 @@
 * Deleting databases: `DROP DATABASE [database];`
 * Custom column output names: `SELECT [column] AS [custom-column] FROM [table];`
 *  Logout: `exit;`
-*  GRANT ALl: 
+*  Grant Privileges: 
+
 ```
-GRANT ALL ON 'dbName'.* to 'dbuser'@'%.%.%.%';
+CREATE USER 'raju'@'localhost' IDENTIFIED BY 'mypass';
+
+GRANT ALL ON db1.* TO 'raju'@'localhost';
+
+GRANT ALL ON db1.* TO 'raju'@'%.%.%.%';
+
+GRANT SELECT ON db2.invoice TO 'raju'@'localhost';
+
+ALTER USER 'raju'@'localhost' WITH MAX_QUERIES_PER_HOUR 90;
 ```
-*  CREATE USER: 
-```
-CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
-```
-*  CREATE USER: 
-```
-CREATE USER 'newuser'@'%.%.%.%' IDENTIFIED BY 'password';
-```
+
 
 **To export**
 
