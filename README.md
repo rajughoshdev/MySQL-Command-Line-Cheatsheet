@@ -67,9 +67,9 @@ ALTER USER 'raju'@'localhost' WITH MAX_QUERIES_PER_HOUR 90;
 - If you have a dedicated database server, replace localhost hostname with with actual server name or IP address as follows:
 
 `$ mysql -u username -p -h 202.54.1.10 databasename < data.sql`
-- OR use hostname such as mysql.cyberciti.biz
+- OR use hostname such as db.rajughosh.com
 
-`$ mysql -u username -p -h mysql.cyberciti.biz database-name < data.sql`
+`$ mysql -u username -p -h db.rajughosh.com database-name < data.sql`
 - If you do not know the database name or database name is included in sql dump you can try out something as follows:
 
 `$ mysql -u username -p -h 202.54.1.10 < data.sql`
