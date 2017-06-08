@@ -23,7 +23,7 @@
 * Deleting databases: `DROP DATABASE [database];`
 * Custom column output names: `SELECT [column] AS [custom-column] FROM [table];`
 *  Logout: `exit;`
-*  GRANT ALL ON `dbName`.* to `dbName`@`%.%.%.%`; 
+*  GRANT ALL ON `dbName`.* to `dbuser`@`%.%.%.%`; 
 *  CREATE USER `'newuser'@'localhost' IDENTIFIED BY 'password';`
 *  CREATE USER `'newuser'@'%.%.%.%' IDENTIFIED BY 'password';`
 
